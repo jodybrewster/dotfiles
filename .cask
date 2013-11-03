@@ -24,3 +24,5 @@ installcask vlc
 installcask android-file-transfer
 installcask filezilla
 installcask evernote
+installcask divvy
+installcask alfred
