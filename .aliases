@@ -1,3 +1,7 @@
+# add sublime
+# "s ." will open the current directory in sublime
+alias s='open -a "Sublime Text 2"'
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -5,8 +9,16 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
-alias ls='ls -aFhlG'
-alias ll='ls -l'
+
+# Color ls
+colorflag="-G"
+alias ls="command ls ${colorflag}"
+alias l="ls -lF ${colorflag}"
+alias la="ls -laF ${colorflag}"
+alias ls='ls -aFhl ${colorflag}'
+alias ll='ls -l ${colorflag}'
+alias lsd='ls -lF ${colorflag} | grep "^d"'
+
 alias search=grep
 
 # Shortcuts
@@ -14,9 +26,15 @@ alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
-alias g="git"
 alias h="history"
 alias j="jobs"
+
+# git
+alias g="git"
+alias gs="git status"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gp="git push"
 
 
 
