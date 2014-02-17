@@ -48,5 +48,24 @@ install p7zip
 tap homebrew/versions
 install lua52
 
+
+# mine
+brew install autoconf
+brew install luajit
+brew install mongodb		
+brew install ossp-uuid	
+brew install pkg-config
+brew install postgresql
+brew install python --universal --framework
+brew install lua		
+brew install luarocks	
+brew install nginx		
+brew install pcre		
+brew install play		
+brew install rbenv		
+brew install ruby-build
+brew install redis
+brew install watch
+
 # Remove outdated versions from the cellar
 cleanup
