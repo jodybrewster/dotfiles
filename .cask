@@ -19,6 +19,7 @@ installcask miro-video-converter
 installcask sublime-text
 installcask the-unarchiver
 installcask ukelele
+installcask vagrant
 installcask virtualbox
 installcask vlc
 installcask android-file-transfer
@@ -26,3 +27,4 @@ installcask filezilla
 installcask evernote
 installcask divvy
 installcask alfred
+
