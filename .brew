@@ -53,7 +53,6 @@ brew tap homebrew/versions
 brew install autoconf
 brew install luajit
 brew install mongodb		
-brew install ngx_openresty	
 brew install ossp-uuid	
 brew install pkg-config
 brew install postgresql
@@ -61,11 +60,11 @@ brew install readline
 brew install lua		
 brew install luarocks	
 brew install nginx		
-brew install node		
 brew install pcre		
 brew install play		
 brew install rbenv		
 brew install ruby-build
+brew install redis
 
 
 # Remove outdated versions from the cellar
