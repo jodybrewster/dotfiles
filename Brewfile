@@ -5,7 +5,7 @@ update
 upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+# Don’t forget to add `$(--prefix coreutils)/libexec/gnubin` to `$PATH`.
 install coreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 install findutils
@@ -50,22 +50,23 @@ install lua52
 
 
 # mine
-brew install autoconf
-brew install luajit
-brew install mongodb		
-brew install ossp-uuid	
-brew install pkg-config
-brew install postgresql
-brew install python --universal --framework
-brew install lua		
-brew install luarocks	
-brew install nginx		
-brew install pcre		
-brew install play		
-brew install rbenv		
-brew install ruby-build
-brew install redis
-brew install watch
+install autoconf
+install luajit
+install mongodb		
+install ossp-uuid	
+install pkg-config
+install postgresql
+install python --universal --framework
+install lua
+link --overwrite lua
+install luarocks	
+install nginx		
+install pcre		
+install play		
+install rbenv		
+install ruby-build
+install redis
+install watch
 
 # Remove outdated versions from the cellar
 cleanup
