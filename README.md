@@ -1,6 +1,27 @@
 # Jody’s dotfiles
 
-## Installation
+# Mac OS X setup
+
+This is a list of reproducible steps to get a clean Mac up and running with nice dotfiles for Bash and ZSH, plus a whole bunch of apps and development tools. Tested on 10.9 (Mavericks).
+
+## Step 1: prepare Mac OS X
+
+1. Install Xcode from the App Store
+2. Open Xcode's preferences and install the command line tools package (this will also install Git) (on OS X Mavericks you need to run `xcode-select --install` instead)
+3. Install http://coderwall.com/p/dlithw *(optional)*
+4. Install http://www.starryhope.com/keyfixer/ *(optional)*
+
+
+## Step 2: install Homebrew (see http://brew.sh for more info)
+
+    $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+To update Homebrew itself:
+
+    $ brew update
+
+
+
 
 ### Using Git and the bootstrap script
 
