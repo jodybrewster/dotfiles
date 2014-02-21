@@ -57,7 +57,8 @@ install ossp-uuid
 install pkg-config
 install postgresql
 install python --universal --framework
-install lua		
+install lua
+link --overwrite lua
 install luarocks	
 install nginx		
 install pcre		
