@@ -69,6 +69,7 @@ install redis
 install watch
 install gradle
 install android
+install ant
 
 # Remove outdated versions from the cellar
 cleanup
