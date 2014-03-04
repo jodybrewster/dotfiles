@@ -67,6 +67,8 @@ install rbenv
 install ruby-build
 install redis
 install watch
+install gradle
+install android
 
 # Remove outdated versions from the cellar
 cleanup
