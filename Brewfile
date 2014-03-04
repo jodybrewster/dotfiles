@@ -70,6 +70,7 @@ install watch
 install gradle
 install android
 install ant
+install graphicsmagick
 
 # Remove outdated versions from the cellar
 cleanup
