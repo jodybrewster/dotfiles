@@ -35,7 +35,7 @@ cask install vlc
 cask install android-file-transfer
 cask install filezilla
 cask install evernote
-cask install divvy
+cask install spectacle
 cask install alfred
 cask install android-studio
 cask install intellij-idea-community
