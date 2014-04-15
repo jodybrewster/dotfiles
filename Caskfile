@@ -41,3 +41,4 @@ cask install android-studio
 cask install intellij-idea-community
 cask install doxygen
 cask install cord
+cask install dash
