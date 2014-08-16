@@ -20,7 +20,7 @@ cask install google-chrome-canary
 cask install opera-next
 
 # development
-cask install sublime-text-3
+cask install sublime-text3
 cask install filezilla
 cask install kaleidoscope
 cask install iterm2
