@@ -3,6 +3,12 @@
 # Sets your user account as the owner of the /usr/local directory to avoid managing packages with sudo
 sudo chown -R $USER /usr/local
 
+rm -rf /usr/local/lib/node_modules
+brew uninstall node
+brew install node --without-npm
+echo prefix=~/.node >> ~/.npmrc
+curl -L https://www.npmjs.org/install.sh | sh
+
 npm update
 
 npm install coffee-script -g
