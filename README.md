@@ -107,6 +107,13 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 brew bundle ~/Caskfile
 ```
 
+### Install NPM global modules
+
+
+```bash
+./.npm
+```
+
 
 =======
 
