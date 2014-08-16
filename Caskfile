@@ -13,32 +13,41 @@ cask install quicklook-json
 cask install quicklook-csv
 cask install betterzipql
 
-# Apps
-cask install sourcetree
-cask install sequel-pro
-cask install dropbox
+# browser
+cask install firefox-aurora
 cask install google-chrome
 cask install google-chrome-canary
-cask install google-music-manager
-cask install firefox
-cask install imagealpha
-cask install imageoptim
-cask install iterm2
-cask install macvim
-cask install miro-video-converter
-cask install sublime-text
-cask install the-unarchiver
-cask install ukelele
-cask install spotify
-cask install virtualbox
-cask install vlc
-cask install android-file-transfer
+cask install opera-next
+
+# development
+cask install sublime-text-3
 cask install filezilla
-cask install evernote
-cask install spectacle
-cask install alfred
+cask install kaleidoscope
+cask install iterm2
+cask install source-tree
+cask install virtualbox
 cask install android-studio
 cask install intellij-idea-community
 cask install doxygen
+cask install macvim
+
+
+# Apps
+cask install sequel-pro
+cask install alfred
+cask install dropbox
+cask install mou
+cask install google-music-manager
+cask install imagealpha
+cask install imageoptim
+cask install miro-video-converter
+cask install the-unarchiver
+cask install ukelele
+cask install spotify
+cask install vlc
+cask install android-file-transfer
+cask install evernote
+cask install spectacle
+cask install alfred
 cask install cord
 cask install dash
