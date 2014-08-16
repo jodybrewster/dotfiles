@@ -64,7 +64,6 @@ install rbenv
 install ruby-build
 install redis
 install watch
-install ant
 install graphicsmagick
 
 #android
