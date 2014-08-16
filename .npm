@@ -26,3 +26,7 @@ npm install ios-deploy -g
 npm install ios-sim -g
 npm install karma -g
 npm install karma-cli -g
+npm install jshint -g
+npm install yo -g
+npm install node-inspector -g
+npm install forever -g
