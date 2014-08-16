@@ -68,11 +68,11 @@ install ant
 install graphicsmagick
 
 #android
-brew install ant
-brew install maven
-brew install gradle
-brew install android-sdk
-brew install android-ndk
+install ant
+install maven
+install gradle
+install android-sdk
+install android-ndk
 
 # Remove outdated versions from the cellar
 cleanup
