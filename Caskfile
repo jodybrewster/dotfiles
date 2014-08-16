@@ -30,6 +30,7 @@ cask install android-studio
 cask install intellij-idea-community-eap
 cask install doxygen
 cask install macvim
+cask install appium
 
 
 # Apps
