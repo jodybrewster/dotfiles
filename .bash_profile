@@ -54,5 +54,6 @@ export PATH=$ANDROID_HOME/platform-tools:$PATH
 # TODO: need to figure out how to go around this version on the path
 export PATH=$ANDROID_HOME/build-tools/android-4.4W:$PATH
 
+export PATH="$HOME/.node/bin:$PATH"
 
 
