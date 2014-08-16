@@ -51,3 +51,6 @@ cask install spectacle
 cask install alfred
 cask install cord
 cask install dash
+cask install iphone-configuration-utility
+cask install intel-haxm
+cask install libreoffice
