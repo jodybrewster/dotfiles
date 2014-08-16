@@ -67,10 +67,15 @@ install rbenv
 install ruby-build
 install redis
 install watch
-install gradle
-install android
 install ant
 install graphicsmagick
+
+#android
+brew install ant
+brew install maven
+brew install gradle
+brew install android-sdk
+brew install android-ndk
 
 # Remove outdated versions from the cellar
 cleanup
