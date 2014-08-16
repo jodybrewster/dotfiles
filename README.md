@@ -107,6 +107,11 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 brew bundle ~/Caskfile
 ```
 
+### Update Android
+```bash
+android update sdk --no-ui
+```
+
 ### Install NPM global modules
 
 
