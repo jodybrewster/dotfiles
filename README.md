@@ -10,6 +10,7 @@ This is a list of reproducible steps to get a clean Mac up and running with nice
 2. Open Xcode's preferences and install the command line tools package (this will also install Git) (on OS X Mavericks you need to run `xcode-select --install` instead)
 3. Install http://coderwall.com/p/dlithw *(optional)*
 4. Install http://www.starryhope.com/keyfixer/ *(optional)*
+5. Make sure that the .bash_profile file in this repo has a changed android build tool path, the version is hardcoded into the path
 
 
 ## Step 2: install Homebrew (see http://brew.sh for more info)
