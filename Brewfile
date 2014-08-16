@@ -33,7 +33,6 @@ install php55
 # Install other useful binaries
 install ack
 #install exiv2
-install git
 install imagemagick --with-webp
 install lynx
 install node
@@ -60,9 +59,7 @@ install python --universal --framework
 install lua
 link --overwrite lua
 install luarocks	
-install nginx		
-install pcre		
-install play		
+install nginx
 install rbenv		
 install ruby-build
 install redis
