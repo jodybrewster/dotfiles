@@ -24,7 +24,7 @@ cask install sublime-text3
 cask install filezilla
 cask install kaleidoscope
 cask install iterm2
-cask install source-tree
+cask install sourcetree
 cask install virtualbox
 cask install android-studio
 cask install intellij-idea-community
