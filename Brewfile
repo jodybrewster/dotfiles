@@ -65,6 +65,7 @@ install ruby-build
 install redis
 install watch
 install graphicsmagick
+install tmux
 
 #android
 install ant
