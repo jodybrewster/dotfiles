@@ -113,6 +113,11 @@ brew bundle ~/Caskfile
 curl http://j.mp/spf13-vim3 -L -o - | sh
 ```
 
+### Install [Prezto](https://github.com/sorin-ionescu/prezto)
+
+https://github.com/sorin-ionescu/prezto
+
+
 ### Update Android
 ```bash
 android update sdk --no-ui
