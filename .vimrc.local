@@ -1,0 +1,32 @@
+Plugin 'mattn/emmet-vim'
+Plugin 'tpope/vim-dispatch'
+
+let g:vim_json_syntax_conceal = 0
+let g:vim_json_warnings=0
+
+set shortmess=a
+set cmdheight=2
+
+" nerdtree
+set autochdir
+let NERDTreeChDirMode=2
+let NERDTreeQuitOnOpen=0
+
+" fast buffer switching
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr>
+
+
+" folding 
+set foldmethod=syntax
+set foldlevelstart=1
+set nofoldenable
+
+let javaScript_fold=1         " JavaScript
+
+" remap arrow keys to nothing
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
