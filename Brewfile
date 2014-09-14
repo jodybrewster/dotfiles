@@ -66,6 +66,8 @@ install redis
 install watch
 install graphicsmagick
 install tmux
+install docker
+install boot2docker
 
 #android
 install ant
