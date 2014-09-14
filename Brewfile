@@ -66,6 +66,7 @@ install redis
 install watch
 install graphicsmagick
 install tmux
+install reattach-to-user-namespace
 install docker
 install boot2docker
 
