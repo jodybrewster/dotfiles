@@ -11,6 +11,7 @@ install coreutils
 install findutils
 # Install Bash 4
 install bash
+install zsh
 
 # Install wget with IRI support
 install wget --enable-iri
