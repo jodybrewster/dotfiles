@@ -90,5 +90,6 @@ export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 # TODO: need to figure out how to go around this version on the path
 export PATH=$ANDROID_HOME/build-tools/android-4.4W:$PATH
+export DOCKER_HOST=tcp://192.168.59.103:2375
 
 export PATH="$HOME/.node/bin:$PATH"
