@@ -76,7 +76,7 @@ if [[ ! -d "$TMPPREFIX" ]]; then
 fi
 
 # android
-export ANT_HOME=/usr/local/opt/ant
+export ANT_HOME=/usr/local/ant
 export MAVEN_HOME=/usr/local/opt/maven
 export GRADLE_HOME=/usr/local/opt/gradle
 export ANDROID_HOME=/usr/local/opt/android-sdk
