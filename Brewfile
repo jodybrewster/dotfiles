@@ -71,6 +71,9 @@ install reattach-to-user-namespace
 install docker
 install boot2docker
 
+#ios
+install xctool
+
 #android
 install ant
 install maven
