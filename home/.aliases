@@ -174,3 +174,6 @@ alias reload="exec $SHELL -l"
 jscbin="/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc"
 [ -e "${jscbin}" ] && alias jsc="${jscbin}"
 unset jscbin
+
+alias tmux='tmux -2'
+
