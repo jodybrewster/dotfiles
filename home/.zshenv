@@ -13,7 +13,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.node/bin:$PATH"
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+# export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 
 # load rbenv if available
