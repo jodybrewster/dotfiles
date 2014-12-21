@@ -54,6 +54,7 @@ export PATH="/Users/tempusers/.node/bin:/Users/tempusers/.rbenv/shims:/Users/tem
 
 source $ZSH/oh-my-zsh.sh
 
+source ~/.zshenv
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
