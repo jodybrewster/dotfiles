@@ -1,0 +1,30 @@
+"*":
+  editor:
+    fontFamily: "SourceCodePro-Light"
+    invisibles: {}
+  core:
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  "exception-reporting":
+    userId: "09ba2671-6d3b-1bed-ebe3-7538eef5cb85"
+  welcome:
+    showOnStartup: false
+  "terminal-status": {}
+  react: {}
+  "markdown-preview": {}
+  "atom-hexo": {}
+  "markdown-writer": {}
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  nuclide:
+    remoteProjectsConfig: []
+  linter: {}
+  "linter-eslint": {}
+  "atom-beautify":
+    _analyticsUserId: "54cb9fde-5efd-4565-803e-456a2d1775a3"
+  "toggle-quotes": {}
+  minimap:
+    plugins:
+      pigments: true
