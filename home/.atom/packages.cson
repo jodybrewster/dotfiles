@@ -1,6 +1,5 @@
 packages: [
   "atom-beautify"
-  "atom-jshint"
   "atom-terminal"
   "compass"
   "docblockr"
@@ -8,8 +7,6 @@ packages: [
   "file-icons"
   "gutter-shadow"
   "hyperclick"
-  "jsformat"
-  "jshint"
   "jsonlint"
   "language-rspec"
   "language-swift"
