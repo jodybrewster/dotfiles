@@ -37,6 +37,9 @@ export PATH=$ANDROID_HOME/platform-tools:$PATH
 # TODO: need to figure out how to go around this version on the path
 export PATH=$ANDROID_HOME/build-tools/android-4.4W:$PATH
 
+# nvm
+source $(brew --prefix nvm)/nvm.sh
+export NVM_DIR=~/.nvm
 
 # Local config
 [[ -f ~/.zshenv.local ]] && source ~/.zshenv.local
