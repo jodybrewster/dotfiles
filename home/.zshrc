@@ -12,11 +12,14 @@ fi
 
 source ~/.aliases
 
-#nvm alias default 6.12.3
-#nvm use 6.12.3
-
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+nvm alias default v7.2.0
+nvm use v7.2.0
 
 
 # Customize to your needs...
@@ -24,5 +27,3 @@ eval $(/usr/libexec/path_helper -s)
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.helm/darwin-amd64/helm:$PATH"
 
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
