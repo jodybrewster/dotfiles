@@ -15,7 +15,7 @@ source ~/.aliases
 #nvm alias default 6.12.3
 #nvm use 6.12.3
 
-export ANDROID_HOME=/usr/local/opt/android-sdk
+export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 
