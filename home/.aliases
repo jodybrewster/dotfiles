@@ -191,3 +191,7 @@ unset jscbin
 
 alias tmux='tmux -2'
 
+# kubernetes
+alias kc="kubectl"
+alias kx="kubectx"
+alias kn="kubens"
