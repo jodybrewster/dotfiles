@@ -18,8 +18,7 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
-nvm alias default v7.2.0
-nvm use v7.2.0
+nvm alias default 12
 
 
 # Customize to your needs...
