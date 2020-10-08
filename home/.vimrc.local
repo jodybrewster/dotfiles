@@ -1,4 +1,4 @@
-Plugin 'mattn/emmet-vim'
+"Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-dispatch'
 
 let g:vim_json_syntax_conceal = 0
